@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const TeamCards = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-foreground to-background">
       {/*Contenedor de las dos tarjetas*/}
       <div className="flex flex-wrap justify-center gap-8 max-w-4xl">
         {/*Tarjeta 1*/}
